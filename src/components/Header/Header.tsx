@@ -8,8 +8,8 @@ function Header() {
     const navigation = [
         { num: "01", name: "About", href: "#about" },
         { num: "02", name: "Feautures", href: "#features" },
-        { num: "03", name: "Testimonial", href: "#/" },
-        { num: "04", name: "Resources", href: "#/" },
+        { num: "03", name: "Testimonial", href: "#testimonials" },
+        // { num: "04", name: "Resources", href: "#/" },
     ];
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 

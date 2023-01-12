@@ -40,7 +40,7 @@ const features = [
 function Feautures() {
     return (
         <>
-            <div className="bg-white py-24 sm:py-32 lg:py-40">
+            <div id="features" className="bg-white py-24 sm:py-32 lg:py-40">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
                     <div className="sm:text-center">
                         <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Features</p>

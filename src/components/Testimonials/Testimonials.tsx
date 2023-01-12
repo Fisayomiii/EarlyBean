@@ -33,7 +33,7 @@ function Testimonials() {
     ]
     return (
         <>
-            <div className="bg-white py-24 sm:py-32 lg:py-40 zigzag">
+            <div id="testimonials" className="bg-white py-24 sm:py-32 lg:py-40 zigzag">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
                     <div className="sm:text-center">
                         <h2 className="text-lg font-semibold leading-8 text-purple-600">Testimonials</h2>
