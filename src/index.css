@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body{
+    background-color: #F8EAFF ;
+} */
+
+::selection {
+    background-color: #d0b2e9;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    background: #c493ed;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #643e84;
+}
+
+.polygon {
+    background-color: #F6D8FF;
+    clip-path: polygon(0px 0px, 100% 0px, 100% 78%, 0% 100%);
+}
+
+.zigzag {
+    background-color: #F6D8FF;
+    clip-path: polygon(100% 100%, 0% 100%, 0% 10%, 5% 0%, 10% 10%, 15% 0%, 20% 10%, 25% 0%, 30% 10%, 35% 0%, 40% 10%, 45% 0%, 50% 10%, 55% 0%, 60% 10%, 65% 0%, 70% 10%, 75% 0%, 80% 10%, 85% 0%, 90% 10%, 95% 0%, 100% 10%);
+}
