@@ -1,5 +1,5 @@
-## EarlyCo ✨
-> EarlyCo is a web application that help children save money better.
+## EarlyBean ✨
+> EarlyBean is a web application that help children save money better.
 
 ### [Demo](https://earlybean.vervel.app)
 
