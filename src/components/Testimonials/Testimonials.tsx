@@ -20,7 +20,6 @@ function Testimonials() {
             attribute: 'Mum Of 1',
             title: '"The support I need"',
             description: 'As an adult, I still struggle with financial literacy. Talk less, of me teaching my kids to handle their finance. With the Earlybean app, I feel like I can have the support to teach my kids about money.',
-
         },
         {
             img: "https://res.cloudinary.com/dn6fnuhxr/image/upload/v1643169823/tosin-ajayi.png",
@@ -28,8 +27,29 @@ function Testimonials() {
             attribute: 'Mum Of 1',
             title: '"One Less worry"',
             description: 'My biggest worry has always been my daughter growing without a strong financial background, especially when I’m not there to guide her. Thankfully, with Earlybean, that’s one less thing for me to worry about.',
-
         },
+        {
+            img: "https://res.cloudinary.com/dn6fnuhxr/image/upload/v1643397134/eniola-o.png",
+            name: 'Eniola',
+            attribute: '17 Years old',
+            title: '"If only i had earlybean"',
+            description: 'I won a competition some years ago and the prize was money. My mum said she would keep it for me, but till today, I dont think I ever got that money. If I had earlybean then, it would have helped.',
+        },
+        {
+            img: "https://res.cloudinary.com/dn6fnuhxr/image/upload/v1642954529/Picture3.png",
+            name: 'Zion',
+            attribute: '15 Years old',
+            title: '"It would keep my money save"',
+            description: 'At boarding school, I always have to keep cash on me to buy things from our tuck shop. Sometimes, my cash gets lost or stolen. I feel if i had the earlybean app and card, my money would be safe.',
+        },
+        {
+            img: "https://res.cloudinary.com/dn6fnuhxr/image/upload/v1643397272/ivy.png",
+            name: 'Ivy',
+            attribute: '9 Years old',
+            title: '"It would help me save"',
+            description: 'I like to save and I  would like to help my mum by saving for my college education from now. I would also like to save, so I can help the elderly. This app would help me save for as many things I want, at once.',
+        },
+        
     ]
     return (
         <>
