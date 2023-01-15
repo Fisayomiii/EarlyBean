@@ -55,8 +55,8 @@ function Testimonials() {
         <>
             <div id="testimonials" className="bg-white py-24 sm:py-32 lg:py-40 zigzag">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                    <div className="sm:text-center">
-                        <h2 className="text-lg font-semibold leading-8 text-purple-600">Testimonials</h2>
+                    <div className="sm:text-center" data-aos="fade-up" data-aos-once="true">
+                        <h2 className="text-lg font-semibold leading-8 text-purple-600" >Testimonials</h2>
                         <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">What other <span className="text-purple-500">parents</span> and <span className="text-purple-500">children</span> are saying</p>
                         <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-gray-600 mb-8">
                             We’ve talked and tested with a bunch of intentional parents, kids and teens too, here’s what they said.

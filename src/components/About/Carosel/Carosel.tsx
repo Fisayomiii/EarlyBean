@@ -26,11 +26,11 @@ const Carosel = () => {
 
 
                 <SwiperSlide>
-                    <div className="bg-purple-800">
+                    <div className="bg-purple-800" >
                         <div className="mx-auto max-w-screen-2xl">
                             <header className="flex items-center flex items-center justify-center flex-col lg:flex-row">
 
-                                <div className="lg:pt-0 pt-10 p-5 md:pl-10 lg:pl-20">
+                                <div className="lg:pt-0 pt-10 p-5 md:pl-10 lg:pl-20" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
                                     <h1 className="text-4xl lg:text-4xl xl:text-5xl text-white w-full font-bold tracking-tight">Experiential Learning</h1>
                                     <p className="text-white w-full md:w-3/5 my-6 text-lg leading-8">By managing their own money, kids and teens inherently pick up the financial skills needed for a more secure future.</p>
                                     <div className="mt-10">
@@ -38,7 +38,7 @@ const Carosel = () => {
                                         <Getiton />
                                     </div>
                                 </div>
-                                <div className="pt-10 lg:pt-10 mb-9 ">
+                                <div className="pt-10 lg:pt-10 mb-9 " data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
                                     <img src={iphoneone} alt="iphone white" />
                                 </div>
                             </header>

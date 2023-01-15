@@ -4,9 +4,9 @@ function Newsletter() {
             <section className="bg-purple-900 dark:bg-gray-900"><br /><br />
                 <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
                     <div className="mx-auto max-w-screen-md sm:text-center">
-                        <h2 className="mt-2 mb-7 text-3xl font-bold tracking-tight text-white sm:text-4xl">Sign up for our newsletter</h2>
-                        <p className="mx-auto mb-8 max-w-2xl font-light text-white md:mb-12 sm:text-xl dark:text-gray-400">Stay up to date with the roadmap progress, announcements and exclusive discounts feel free to sign up with your email.</p>
-                        <form action="#">
+                        <h2 className="mt-2 mb-7 text-3xl font-bold tracking-tight text-white sm:text-4xl" data-aos="fade-up" data-aos-once="true">Sign up for our newsletter</h2>
+                        <p className="mx-auto mb-8 max-w-2xl font-light text-white md:mb-12 sm:text-xl dark:text-gray-400" data-aos="fade-down" data-aos-once="true">Stay up to date with the roadmap progress, announcements and exclusive discounts feel free to sign up with your email.</p>
+                        <form action="#" data-aos="flip-down" data-aos-once="true">
                             <div className="items-center mx-auto mb-3 space-y-4 max-w-screen-sm sm:flex sm:space-y-0">
                                 <div className="relative w-full">
                                     <label htmlFor="email" className="hidden mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Email address</label>

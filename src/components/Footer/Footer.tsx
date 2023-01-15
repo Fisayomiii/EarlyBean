@@ -6,13 +6,13 @@ function Footer() {
                     <div className="mx-auto max-w-screen-xl" >
                         <div className="md:flex md:justify-between">
                             <div className="mb-6 md:mb-0">
-                                <a href="/" className="flex items-center">
+                                <a href="/" className="flex items-center" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
                                     <img src="https://res.cloudinary.com/dn6fnuhxr/image/upload/v1637578960/earlybeanLogo.png" className="mr-3 h-8" alt="EarlyBean Logo" />
                                 </a>
-                                <div className="mt-6 w-40 text-md safari-mt-4"><p>Helping parents raise money-smart kids</p></div>
+                                <div className="mt-6 w-40 text-md safari-mt-4" data-aos="fade-right" data-aos-duration="1400" data-aos-once="true"><p>Helping parents raise money-smart kids</p></div>
                             </div>
                             <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-                                <div>
+                                <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
                                     <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
                                     <ul className="text-gray-600 dark:text-gray-400">
                                         <li className="mb-4">
@@ -23,7 +23,7 @@ function Footer() {
                                         </li>
                                     </ul>
                                 </div>
-                                <div>
+                                <div data-aos="fade-up" data-aos-duration="1400" data-aos-once="true">
                                     <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
                                     <ul className="text-gray-600 dark:text-gray-400">
                                         <li className="mb-4">
@@ -34,7 +34,7 @@ function Footer() {
                                         </li>
                                     </ul>
                                 </div>
-                                <div>
+                                <div data-aos="fade-up" data-aos-duration="1700" data-aos-once="true">
                                     <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
                                     <ul className="text-gray-600 dark:text-gray-400">
                                         <li className="mb-4">

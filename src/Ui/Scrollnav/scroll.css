@@ -76,22 +76,21 @@
     width: 10px;
     height: 10px;
     transform: rotate(45deg);
+    animation: scrolldown 1s infinite;
 }
 
-.chevrondown:nth-child(odd) {
-    animation: pulse 500ms ease infinite alternate;
-}
-
-.chevrondown:nth-child(even) {
-    animation: pulse 500ms ease infinite alternate 250ms;
-}
-
-@keyframes pulse {
-    from {
+@keyframes scrolldown {
+    0% {
         opacity: 0;
     }
-
-    to {
-        opacity: 0.5;
+    40% {
+        opacity: 1;
+    }
+    80% {
+        margin-top: -2px;
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
     }
 }
