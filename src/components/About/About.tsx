@@ -5,8 +5,8 @@ import Herosectwo from "./Herosectwo/Herosectwo"
 function About() {
     return (
         <>
-            <section id="about" className="mt-20 polygon p-20" >
-                <div className="mx-auto max-w-screen-2xl">
+            <section id="about" className="mt-20 inverted-corners p-3 sm:p-24" >
+                <div className="mx-auto max-w-screen-2xl ">
                     <header className="flex tems-center flex items-center justify-center flex-col lg:flex-row">
                         <div className="mx-auto flex items-center xl:w-2/3" data-aos="fade-down" data-aos-duration="1000" data-aos-once="true">
                             <img src={boys} loading="lazy" alt="boys" className="w-full " />
@@ -20,7 +20,7 @@ function About() {
                                 <button type="button" className="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 hover:shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Join our Community</button>
                             </div>
                         </div>
-                    </header><br /><br />
+                    </header><br /><br /><br />
                 </div>
             </section>
             <Herosectwo/>

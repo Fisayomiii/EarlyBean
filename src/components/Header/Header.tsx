@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import Gradient from "../../Ui/Gradient/Gradient";
-import earlybeanLogo from "../../../public/earlybeanLogo.png"
+import earlybeanLogo from "/earlybeanLogo.png"
 
 function Header() {
     const navigation = [

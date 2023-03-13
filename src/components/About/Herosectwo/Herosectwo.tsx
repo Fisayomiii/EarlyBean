@@ -3,7 +3,7 @@ import girls from "../../../assets/Imgs/Hero/girls.png"
 function Herosectwo() {
     return (
         <>
-            <section id="about" className="p-24" >
+            <section id="about" className="p-3 sm:p-24" >
                 <div className="mx-auto max-w-screen-2xl">
                     <header className="flex xl:gap-0 items-center flex items-center justify-center flex-col lg:flex-row">
                         <div className="lg:block bg-no-repeat xl:w-1/2" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">

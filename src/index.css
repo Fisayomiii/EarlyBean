@@ -28,3 +28,33 @@
     background-color: #F6D8FF;
     clip-path: polygon(100% 100%, 0% 100%, 0% 10%, 5% 0%, 10% 10%, 15% 0%, 20% 10%, 25% 0%, 30% 10%, 35% 0%, 40% 10%, 45% 0%, 50% 10%, 55% 0%, 60% 10%, 65% 0%, 70% 10%, 75% 0%, 80% 10%, 85% 0%, 90% 10%, 95% 0%, 100% 10%);
 }
+
+:root {
+    --inverted-corners-background: #F6D8FF;
+    --inverted-corners-size: 2rem;
+}
+
+.inverted-corners {
+    background-color: var(--inverted-corners-background);
+
+    /* Used to position the corner */
+    position: relative;
+}
+
+.inverted-corners::before {
+    content: '';
+
+    /* Absolute position */
+    bottom: calc(-2 * var(--inverted-corners-size));
+    left: 0;
+    position: absolute;
+
+    /* Size */
+    height: calc(2 * var(--inverted-corners-size));
+    width: var(--inverted-corners-size);
+
+    /* Border */
+    background-color: transparent;
+    border-top-left-radius: var(--inverted-corners-size);
+    box-shadow: var(--inverted-corners-background) 0px calc(-1 * var(--inverted-corners-size)) 0px 0px;
+}
